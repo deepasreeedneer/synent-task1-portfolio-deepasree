@@ -38,3 +38,15 @@ section{
     margin:8px;
     border-radius:20px;
 }
+h2{
+    margin-bottom:20px;
+}
+
+a{
+    color:#2563eb;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
