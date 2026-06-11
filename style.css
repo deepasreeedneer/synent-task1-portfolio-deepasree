@@ -50,3 +50,46 @@ a{
 a:hover{
     text-decoration:underline;
 }
+body{
+    background-color:#f8fafc;
+    line-height:1.6;
+}
+
+#about,
+#skills,
+#contact{
+    max-width:800px;
+    margin:auto;
+}
+
+#contact{
+    background:white;
+    border-radius:10px;
+    padding:30px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom:30px;
+}
+
+#skills li{
+    transition:0.3s;
+}
+
+#skills li:hover{
+    transform:scale(1.05);
+}
+
+@media(max-width:768px){
+
+    .profile-pic{
+        width:120px;
+        height:120px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+    section{
+        padding:30px 15px;
+    }
+}
