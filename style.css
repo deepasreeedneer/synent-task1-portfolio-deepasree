@@ -22,3 +22,19 @@ header{
     object-fit:cover;
     margin-bottom:20px;
 }
+section{
+    padding:50px 20px;
+    text-align:center;
+}
+
+#skills ul{
+    list-style:none;
+}
+
+#skills li{
+    display:inline-block;
+    background:#e5e7eb;
+    padding:10px 15px;
+    margin:8px;
+    border-radius:20px;
+}
